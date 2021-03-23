@@ -1,0 +1,12 @@
+bp_data=C:/Users/Abhilash Pramod/Desktop/abhishek/ABHISHEK/New folder/bp_data.xlsx
+dburl=jdbc:mysql://localhost:3306/myexceldatabase
+protocall=jdbc
+sub_protocall=mysql
+domain_name=localhost
+port_number=3306
+database_name=myexceldatabase
+table_name=business_partner
+username=root
+password=root
+query=INSERT INTO business_partner (business_partner_id, business_partner_name, business_partner_code, contact_name, address1, address2, city, province, country, postal_code, parent_company, toll_free_number, phone, phone_extension, fax, website_url, payment_condition, gl_number, driver_min_age, api_enabled, status, one_way_fee_paid_by, country_code) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+	

@@ -1,0 +1,11 @@
+excel_data=C:/Users/Abhilash Pramod/Desktop/abhishek/ABHISHEK/reserve_screen_report.xlsx
+dburl=jdbc:mysql://localhost:3306/readerdatabase
+protocall=jdbc
+sub_protocall=mysql
+domain_name=localhost
+port_number=3306
+database_name=readerdatabase
+table_name=reserve_screen_report
+username=root
+password=root
+query=INSERT INTO reserve_screen_report(id,Location_Type,Location_Size_Type,Location_Area,Item_Code,Is_Parent,Alternative_Item_Code,Item_Description,Batch_Nbr,Expiry_Date,Current_Qty,Allocated_Qty,Current_LPN,Alloc_LPN,Last_CC_Counted,Mod_TimeStamp,To_be_Counted,To_Be_Counted_TS,Loc_Lock,Location_Barcode,Facility,Display_Text,Mod_User,Loc_CC_User,Loc_Max_LPN,Loc_Max_Unit,Min_Unit,Attribute_A,Attribute_B,Attribute_C,Attribute_D,Attribute_E,Attribute_F,Attribute_G,Attribute_H,Attribute_I,Attribute_J,Attribute_k,Attribute_L,Attribute_M,Attribute_N,Attribute_O,Brand_Code,Batch_Nbr_Lock,Company,Lock_Code) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
