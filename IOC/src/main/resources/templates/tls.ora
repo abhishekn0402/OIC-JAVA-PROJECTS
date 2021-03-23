@@ -1,0 +1,9 @@
+TNS Details :
+CLONE=
+        (DESCRIPTION=
+                (ADDRESS=(PROTOCOL=TCP)(HOST=130.61.249.138)(PORT=1521))
+            (CONNECT_DATA=
+                (SERVICE_NAME=CLONE)
+                (INSTANCE_NAME=ITCLONE)
+)
+)
