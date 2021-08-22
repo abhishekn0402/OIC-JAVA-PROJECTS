@@ -480,7 +480,6 @@ public class BatchConfig extends DefaultBatchConfigurer
 		
 		JdbcBatchItemWriter<IBLPNReports> itemWriter = new JdbcBatchItemWriter<IBLPNReports>();
 		itemWriter.setDataSource(dataSource);
-
 		itemWriter.setSql("INSERT INTO BI_REP_IBLPN_REPORT(report_id,facility,company,lPN_Nbr,status,qC_Status,vAS,current_Location,prev_Location,item_Code,is_Parent,"
 				+ "alternative_Item_Code,description,orig_Qty,received_Qty,current_Qty,pack_Qty,case_Qty,nbr_Lock,create_TimeStamp,"
 				+ "received_TimeStamp,priority_Date,putaway_Type,batch_Nbr,expiry_Date,mod_Time_Stamp,received_Shipment_Nbr,shipment_Type,"
