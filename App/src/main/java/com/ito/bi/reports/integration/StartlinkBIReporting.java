@@ -116,7 +116,7 @@ public class StartlinkBIReporting
 		SpringApplication.run(StartlinkBIReporting.class, args);
 	}
 
-	@Scheduled(fixedRate = 180000)// 5mins
+	@Scheduled(fixedRate = 180000)
 	public void ftpHandler() throws IOException, MessagingException 
 	{
 		try
@@ -225,7 +225,7 @@ public class StartlinkBIReporting
 		}    
 	}
 
-	@Scheduled(fixedRate = 3600000)//3600000-1 hr
+	@Scheduled(fixedRate = 3600000)
 	public void performActiveReport() throws Exception{
 		logger.info("before inserting to the  active screen table ::"+System.currentTimeMillis());
 		JobParameters params = new JobParametersBuilder()
@@ -235,7 +235,7 @@ public class StartlinkBIReporting
 		logger.info("after insertion to the active screen table ::"+System.currentTimeMillis());
 	}
 
-	@Scheduled(fixedRate = 3600000)// 3600000-1 hr
+	@Scheduled(fixedRate = 3600000)
 	public void performReserveReport() throws Exception {
 		logger.info("before inserting to the  reserve screen table ::"+System.currentTimeMillis());
 		JobParameters params = new JobParametersBuilder()
@@ -245,7 +245,7 @@ public class StartlinkBIReporting
 		logger.info("after insertion to the  reserve screen table ::"+System.currentTimeMillis());
 	}
 
-	@Scheduled(fixedRate = 3600000)//1800000
+	@Scheduled(fixedRate = 3600000)
 	public void perform_IB_Shipment_Report() throws Exception {
 		logger.info("before inserting to the  IBShipment_Report table ::"+System.currentTimeMillis());
 		JobParameters params = new JobParametersBuilder()
