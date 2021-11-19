@@ -1,7 +1,11 @@
 package com.ito.bi.reports.integration.model;
 
 import org.springframework.stereotype.Component;
-
+/**
+ *Class for ReserveScreenReport
+ *
+ * @author Satya Nekkanti, Abhishek Nagaraj
+ */
 @Component
 public class ReserveScreenReport
 {

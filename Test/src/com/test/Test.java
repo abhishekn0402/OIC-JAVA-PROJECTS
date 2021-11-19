@@ -1,17 +1,23 @@
 package com.test;
 
-import java.io.File;
-import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
+import java.util.Date;
 
-public class Test 
-{	
-	
-public static void main(String[] args) throws IOException
+class Test
 {
-	 String host = "02cb1a2.netsolhost.com";
-	 String user = "starlinks";
-	 String pass = "$#@Starlinks";
-	 int port = 21;
+	
+	
 
-}
+	public static void main(String[] args) 
+	{
+		LocalDate today = LocalDate.now();
+		String yesterday = (today.minusDays(1)).format(DateTimeFormatter.ISO_DATE);
+		String dayBeoforeTwoDays = (today.minusDays(2)).format(DateTimeFormatter.ISO_DATE);
+		System.out.println("today : "+today);
+		System.out.println("yesterday : "+yesterday);
+		System.out.println("dayBeoforeTwoDays : "+dayBeoforeTwoDays);
+		
+	}	
 }

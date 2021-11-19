@@ -1,5 +1,9 @@
 package com.ito.bi.reports.integration.model;
-
+/**
+ *Class for IBLPNReports
+ *
+ * @author Satya Nekkanti, Abhishek Nagaraj
+ */
 public class IBLPNReports
 {
 private int report_id;

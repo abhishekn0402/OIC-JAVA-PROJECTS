@@ -3,7 +3,11 @@ package com.ito.bi.reports.integration.ftp;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Configuration;
-
+/**
+ * Class for FTP Connection.
+ *
+ * @author Satya Nekkanti, Abhishek Nagaraj
+ */
 @Configuration
 @ConfigurationProperties(prefix = "ftp")
 public class FTPConfigProperties {
