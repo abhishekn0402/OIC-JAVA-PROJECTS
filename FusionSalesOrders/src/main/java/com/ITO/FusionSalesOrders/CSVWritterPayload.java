@@ -30,6 +30,7 @@ public class CSVWritterPayload
 	public String getOrderNumber() {
 		return orderNumber;
 	}
+	
 	public void setOrderNumber(String orderNumber) {
 		this.orderNumber = orderNumber;
 	}
